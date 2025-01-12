@@ -250,6 +250,10 @@ html ::-webkit-scrollbar {
         width: 200px;
         left: 25%;
     }
+
+    .card img {
+        height: 200px;
+    }
 }
 /* akhir menu */
 
@@ -347,6 +351,11 @@ textarea {
 @media screen and (max-width:576px) {
     #contact input {
         width: 250px;
+    }
+
+    textarea {
+        width: 200px;
+        height: 100px;
     }
 }
 /* akhir contact */
