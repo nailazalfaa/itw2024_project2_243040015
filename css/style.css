@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+.all-content {
+    background: #f4f2ec;
+}
+
+html ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background: #8a0f02;
+    border-radius: 10px;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* navbar */
+#navbar {
+    background-color: #8a0f02;
+    padding: 25px;
+}
+
+#logo {
+    border-radius: 10px;
+}
+
+.navbar-nav {
+    margin-left: 50px;
+}
+
+.nav-item .nav-link {
+    color: #d9b9aa;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    text-decoration: underline;
+    border-radius: 5px;
+    color: white;
+}
+
+#navbar form button {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.navbar-brand h3 {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 20px white;
+}
+
+.navbar-brand img {
+    width: 70px;
+    height: 60px;
+    padding-left: 20px;
+}
+/* akhir navbar */
+
+
+
+
+/* home section */
+#home {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+#home .content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+#home .content h3 {
+    font-size: 50px;
+    color: white;
+}
+
+#home .content p {
+    margin-top: 10px;
+    color: white;
+}
+
+#btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: #8a0f02;
+    color: #FFDD04;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: white;
+    color: black;
+}
+/* akhir home section */
+
+
+
+
+/* about section */
+#about {
+    width: 80%;
+    height: 100vh;
+}
+
+#about .container {
+    padding-top: 30px;
+    padding-left: 20%;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #79253D;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.col-md-6 {
+    text-align: justify;
+}
+
+#about .card {
+    border-radius: 10px;
+}
+
+#about .card img {
+    border-radius: 10px;
+}
+
+#about-btn {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #8a0f02;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    background-color: #8a0f02;
+    color: #FFDD04;
+}
+
+@media screen and (max-width:982px) {
+    #about p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #about p {
+        font-size: 15px;
+    }
+
+    #about {
+        height: 120vh;
+    }
+}
+/* akhir about section */
+
+
+
+
+
+/*  menu */
+#menu {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.heading-3 {
+    text-align: center;
+    font-size: 30px;
+    color: #79253D;
+    font-weight: bold;
+    border-bottom: 2px solid #8a0f02;
+}
+
+#container-2 {
+    margin-top: 50px;
+}
+
+#menu .card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.star i {
+    color: #79253D;
+}
+
+#menu h3 {
+    text-align: center;
+    color: #79253D;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#menu p {
+    font-size: 16px;
+    color: #79253D;
+    padding-top: 10px;
+}
+
+#menu p span {
+    float: right;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    #menu {
+       margin-top: 60%;
+    }
+}
+/* akhir menu */
+
+
+
+
+
+/* contact */
+#contact {
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.heading-6 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+    color: #79253D;
+}
+
+.heading-6 span {
+    color: #79253D;
+}
+
+#contact p {
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+
+#contact input {
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid #8a0f02;
+}
+
+#contact-btn {
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: #8a0f02;
+    color: #FFDD04;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#col {
+    width: 40%;
+    height: 56vh;
+    background: #8a0f02;
+    color: black;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+#contact h3 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#contact #col p {
+    font-size: 15px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+
+textarea {
+    text-align: center;
+}
+/*contact */
+
+
+
+@media screen and (max-width:768px) {
+    #contact .container {
+        background-color: white;
+    }
+
+    #col {
+        width: 100%;
+        background: #8a0f02;
+        color: black;
+    }
+
+    #contact {
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #contact input {
+        width: 250px;
+    }
+}
+/* akhir contact */
+
+
+
+
+
+/* Lokasi */
+.container-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+@media screen and (max-width:576px) {
+    iframe {
+        width: 400px;
+        height: 300px;
+    }
+}
+/* Akhir lokasi */
+
+
+
+/* footer */
+#footer {
+    width: 100%;
+ 
+}
+
+footer {
+    background: #8a0f02;
+    margin-top: 10%;
+}
+
+.footer-logo img {
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 30px #8a0f02;
+    cursor: pointer;
+}
+
+.social-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.social-links i:hover {
+    background: black;
+    color: #FFDD04;
+}
+
+
+.cradits {
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0 0 1px black;
+}
+
+.cradits a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#cradits a span {
+    color: black;
+}
+
+.copyright span {
+    color: black;
+}
+/* akhir footer */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.arrow {
+    position: fixed;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+}
